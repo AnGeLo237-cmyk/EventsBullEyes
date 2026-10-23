@@ -9,11 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vnedyalk0v/react19-simple-maps": "^2.0.12",
     "lucide-react": "^1.14.0",
     "next": "16.2.5",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-simple-maps": "^3.0.0"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -21,5 +21,11 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.5",
     "tailwindcss": "^4"
+  },
+  "overrides": {
+    "react-simple-maps": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   }
 }

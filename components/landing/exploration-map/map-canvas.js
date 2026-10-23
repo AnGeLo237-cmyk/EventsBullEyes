@@ -6,7 +6,7 @@ import {
   Geographies,
   Geography,
   Marker,
-} from "react-simple-maps";
+} from "@vnedyalk0v/react19-simple-maps";
 import { MapPinned, Radar, Layers3 } from "lucide-react";
 import EventMarker from "./event-marker";
 
